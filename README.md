@@ -1,56 +1,47 @@
 
-vose aceita? 
 <!DOCTYPE html>
 <html>
 <head>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+       body {
+            background-color: #ffcccc;
+            text-align: center;
+            font-family: Arial, sans-serif;
         }
-        
-        a {
-            /* Estilo para links (a) aqui */
+
+        .container {
+            padding: 20px;
         }
-        
-        .box {
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            height: 250px;
-            width: 350px;
-            border-radius: 10px;
-            background: #191919;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+
+        h1 {
+            color: #ff3366;
         }
-        
-        .buttons-container {
-            display: flex;
-            justify-content: space-around;
-            height: 50px;
-            width: 150px;
+
+        .heart {
+            font-size: 50px;
+            color: #ff3366;
+            cursor: pointer;
         }
-        
-        button {
-            height: 30px;
-            width: 50px;
-            background: white;
-            border-radius: 5px;
-            color: blue;
-            font-weight: 600;
+
+        #nao {
+            font-size: 24px;
+            color: #333;
+            background-color: #ffcccc;
+            border: none;
+            cursor: pointer;
+            position: absolute;
         }
+    </style>
     </style>
 </head>
 <body>
+    <p>Oi meu amor ❤️,</p>
+    <p>Quero dizer que você ilumina minha vida como ninguém mais.</p>
+    <p class="heart" onclick="mostrarResposta()">❤️</p>
     <div class="box">
-        <p>Cuzinho hoje?</p>
+        <p>Te amo, Aceita um presente misterioso?</p>
         <div class="buttons-container">
-            <a class="button" href="https://youtu.be/8ScAnaU0FFE?si=32FewzP3s1TDSC-Z">Sim</a>
+            <a class="button" href="https://www.youtube.com/watch?v=2VVb_3CxGO8">Sim</a>
             <button id="no">Não</button>
         </div>
     </div>
